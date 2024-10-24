@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5BBE42;
+}
+
+.center {
+    text-align: center;
+}
+
+h1{
+    color: #5BBE42;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: #5BBE42;
+}
+
+section img {
+    width: 50px;
+    height: 50px;
+}
+
+section ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between 15px;
+    padding: 1px;
+}
+section a {
+    color: #5BBE42;
+    text-decoration: underline;
+}
+
+section.formulario {
+    padding: 0px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+    font-family: Poppins;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: rgb(0, 255, 0);
+}
+
+form .btn-enviar {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form .btn-enviar input[type=submit] {
+    width: 120px;
+    background-color: #5BBE42;
+    color: black;
+    font-weight: 700;   
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover {
+    color:blueviolet;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo span {
+    color: #5BBE42;
+}
+

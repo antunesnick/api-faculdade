@@ -1,0 +1,119 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030d3b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container 
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.parte1 
+{
+    flex: 1;
+    background-color: #009b86;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.parte1 img 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #e0f7f9;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+
+.parte1 h1 
+{
+    margin-bottom: -3px;
+    font-size: 20px;
+}
+
+.parte1 .ra 
+{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.parte1 a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.parte1 a:hover 
+{
+    text-decoration: underline;
+}
+
+.main-content 
+{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #030d3b;
+}
+
+.box 
+{
+    background-color: #009b86;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h2 
+{
+    background-color: #fff;
+    padding: 5px;
+    margin: -15px -15px 10px -15px;
+    border-radius: 8px 8px 0 0;
+    color: #030d3b;
+    text-align: center;
+}
+
+.contact-info 
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.contact-info p 
+{
+    margin: 3px 0;
+}
+
+ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+li 
+{
+    margin-bottom: 8px;
+}

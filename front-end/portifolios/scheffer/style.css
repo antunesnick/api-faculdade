@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-size: 2vw;
+    font-family: Poppins;
+}
+
+.imagemContato{
+    border-radius: 50%;
+    bottom: 33vw;
+    position: relative;
+
+}
+.imagem{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.body{
+    background-color: #006494;
+}
+
+
+.apresentacao{
+    width: 45vw;
+    height: 15vw;
+    background-color: #247BA0;
+    border-radius: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+.sobreMim{
+    width: 52vw;
+    height: 29vw;
+    background-color: #247BA0;
+    border-radius: 10px;
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+    left: 46.5vw;
+    bottom: 18.1vw;
+    overflow: auto;
+    padding-left: 10px;
+}
+
+.espaco{
+    padding-left: 15px;
+}
+
+.spacing{
+    padding: 0;
+}
+.text{
+    margin:0;
+    padding: 0;
+}
+.texto{
+    margin:0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.escolaridade{
+    width: 45vw;
+    height: 13.8vw;
+    background-color: #247BA0;
+    border-radius: 10px;
+    margin-top: 60px;
+    bottom: 35vw;
+    position: relative;
+
+}
+
+.lazer{
+    width: 97vw;
+    height: 40vw;
+    background-color: #247BA0;
+    border-radius: 10px;
+    bottom: 34vw;
+    position: relative;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+
+    
+}
+
+.lazer span{
+    font-weight: 700;
+}
+
+.ra{
+    text-align: center;
+    font-weight: 700;
+}

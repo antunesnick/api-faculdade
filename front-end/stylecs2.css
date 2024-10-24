@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img{
+    max-width: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header {
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+}
+
+header img{
+    font-size: 30px;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Estilo para a seção de informações */
+.info-section {
+    padding: 50px 0;
+    background-color: #1a1a1a;
+}
+
+.cards {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #333;
+    padding: 20px;
+    width: 30%;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #f9c91a;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    color: white;
+    line-height: 1.6;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(./assets/cs2wallpaper.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: #2C3E50;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    background-color: transparent;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img{
+    max-width: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header {
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+header img{
+    font-size: 30px;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+header ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+section {
+    background-color: #2C3E50;
+}
+
+
+.main{
+    background-color: #2C3E50;
+    width: 100%; height: 20vw;
+}
+
+
+
+.banner {
+    height: 101vh;
+    background: url(./assets/tft\ walpapper.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.descricao{
+    background-color: #6BAF92 ;
+    width: 100%; height: 20vw;
+    border: 2px solid #4C3D2E;
+    color: white;
+
+}
+
+.h1_des{
+    margin-left: 43.5vw;
+    font-size: 2vw;
+    padding-bottom: 0;
+}
+
+.p_des{
+    padding-left: 10px;
+    position: relative;
+    bottom: 40px;
+}
+
+.modo_camp{
+    display: flex;
+    justify-content: center;
+    background-color:#6BAF92 ;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.plano_fundo{
+    background-color: #6BAF92  ;
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box_dupla{
+    background-color: #34495E;
+    width: 35%; height: 55vw;
+    position: relative;
+    top: 2vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    overflow: auto;
+    color: white;
+    border: 3px solid #4C3D2E;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img_aram{
+    width: 100%; height: 20vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.h2_aram_desc{
+    color: #ECF0F1;
+    font-size: 30px ;
+    margin-left: 1vw;
+}
+
+.h2_aram_org{
+    color: #ECF0F1;
+    font-size: 30px ;
+    margin-left: 1vw;
+}
+
+.h2_aram_part{
+    color: #ECF0F1;
+    font-size: 30px ;
+    margin-left: 1vw;
+}
+
+.p_aram{
+    color: #ECF0F1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 1vw;
+}
+
+
+.box_arena{
+    background-color: #34495E;
+    width: 35%; height: 55vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    overflow: auto;
+    color: white;
+    border: 2px solid #16A085;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box_rift{
+    background-color: #34495E;
+    width: 35%; height: 55vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    overflow: auto;
+    color: white;
+    border: 2px solid #16A085;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.tab_chave{
+    display: flex;
+    justify-content: center;
+    background-color: #6BAF92;
+    color: white;
+}
+
+.tabela_arena{
+    background-color:#6BAF92 ;
+    height: 32vw;
+    border: 3px solid #4C3D2E;
+}
+
+.arena_tabela_titulo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1vw;
+    color: white;
+    font-size: 40px;
+    
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+}
+
+td {
+    background-color: #34495E;
+    color: #ECF0F1;   
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.tabela_aram_titulo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0.5vw;
+    color: white;
+    font-size: 40px;
+}
+
+.tabela_aram{
+    background-color: #34495E;
+    height: 32vw;
+    border: 2px solid #4C3D2E;
+}
+

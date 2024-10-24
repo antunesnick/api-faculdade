@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0A0D12;
+    color: #E0E0E0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    background-color: transparent;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img{
+    max-width: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header {
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(10, 13, 18, 0.85);
+}
+
+header img{
+    font-size: 30px;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+header ul li a {
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+
+.main{
+    background-color: #070C10;
+    width: 100%; height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.banner {
+    height: 101vh;
+    background: url(./assets/lol\ wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.descricao{
+    background-color: #1A2833 ;
+    width: 100%; height: 20vw;
+    border: 2px solid #455964;
+    color: #E0E0E0;
+    padding: 10px;
+}
+
+.h1_des{
+    margin-left: 43.5vw;
+    font-size: 2vw;
+}
+
+.p_des{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.modo_camp{
+    display: flex;
+    justify-content: center;
+    background-color:#1A2833 ;
+    color: #F1C40F;
+    font-size: 20px;
+    
+}
+
+.plano_fundo{
+    background-color: #1A2833  ;
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box_aram{
+    background-color: #1A2833;
+    width: 35%; height: 55vw;
+    position: relative;
+    top: 2vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    overflow: auto;
+    color: #E0E0E0;
+    border: 3px solid #455964;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px;
+}
+
+.img_aram{
+    width: 100%; height: 20vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.h2_aram_desc{
+    color: #F1C40F;
+    font-size: 30px ;
+    margin-left: 1vw;
+}
+
+.h2_aram_org{
+    color: #F1C40F;
+    font-size: 30px ;
+    margin-left: 1vw;
+}
+
+.h2_aram_part{
+    color: #F1C40F;
+    font-size: 30px ;
+    margin-left: 1vw;
+}
+
+.p_aram{
+    color: #E0E0E0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 1vw;
+}
+
+
+
+
+.box_arena{
+    background-color: #1A2833;
+    width: 35%; height: 55vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    overflow: auto;
+    color: #E0E0E0;
+    border: 2px solid #455964;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px;
+}
+
+.box_rift{
+    background-color: #1A2833;
+    width: 35%; height: 55vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    overflow: auto;
+    color: #E0E0E0;
+    border: 2px solid #455964;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px;
+}
+
+.tab_chave{
+    display: flex;
+    justify-content: center;
+    background-color: #1A2833;
+}
+
+.tabela_arena{
+    background-color:#1A2833 ;
+    height: 32vw;
+    border: 3px solid #455964;
+}
+
+.arena_tab_titulo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1vw;
+    color: #F1C40F;
+    
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    background-color: #F1C40F;
+    color: #0A0D12;
+}
+
+td {
+    background-color: #2C3E50;
+    color: #E0E0E0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
