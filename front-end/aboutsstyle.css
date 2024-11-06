@@ -39,12 +39,12 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(4px);
+    
 }
 
 header img{
     font-size: 30px;
-    color: black;
+    color: #fff;
 }
 
 header ul {
@@ -57,14 +57,14 @@ header ul li {
 }
 
 header ul li a {
-    color: black;
+    color: #808080;
     text-decoration: none;
 }
 
 .about-section {
-    background: url(./assets/undraw_team_page_re_cffb.svg);
+    background: url(./assets/undraw_team_page_re_cffb\ \(1\).svg);
     background-size: 55%;
-    background-color: #0c0ce94d;
+    background-color: #171717;
     overflow: hidden;
     padding: 100px 0;
 }
